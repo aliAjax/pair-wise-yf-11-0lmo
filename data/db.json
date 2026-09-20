@@ -21,7 +21,8 @@
       "repairNote": "",
       "batchId": null,
       "createdAt": "2026-06-16T00:00:00.000Z",
-      "repairedAt": null
+      "repairedAt": null,
+      "repairCount": 0
     },
     {
       "id": "damage_demo_2",
@@ -34,8 +35,26 @@
       "repairNote": "",
       "batchId": null,
       "createdAt": "2026-06-16T00:00:00.000Z",
-      "repairedAt": null
+      "repairedAt": null,
+      "repairCount": 0
     }
   ],
-  "batches": []
+  "repairers": [
+    {
+      "id": "repairer_demo_wang",
+      "name": "王素贞",
+      "qualifiedTypes": ["虫蛀孔", "撕裂", "霉斑", "残缺"],
+      "dailyLimit": 5,
+      "createdAt": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "id": "repairer_demo_chen",
+      "name": "陈墨",
+      "qualifiedTypes": ["撕裂"],
+      "dailyLimit": 1,
+      "createdAt": "2026-06-16T00:00:00.000Z"
+    }
+  ],
+  "batches": [],
+  "repairRecords": []
 }
