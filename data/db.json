@@ -20,6 +20,10 @@
       "status": "pending",
       "repairNote": "",
       "batchId": null,
+      "repairerId": null,
+      "assignedAt": null,
+      "repairHistory": [],
+      "reworkCount": 0,
       "createdAt": "2026-06-16T00:00:00.000Z",
       "repairedAt": null
     },
@@ -33,9 +37,24 @@
       "status": "pending",
       "repairNote": "",
       "batchId": null,
+      "repairerId": null,
+      "assignedAt": null,
+      "repairHistory": [],
+      "reworkCount": 0,
       "createdAt": "2026-06-16T00:00:00.000Z",
       "repairedAt": null
     }
   ],
-  "batches": []
+  "repairers": [
+    {
+      "id": "repairer_demo",
+      "name": "王师傅",
+      "qualifiedTypes": ["虫蛀孔", "撕裂"],
+      "dailyCapacity": 5,
+      "note": "资深修复师",
+      "createdAt": "2026-06-16T00:00:00.000Z"
+    }
+  ],
+  "batches": [],
+  "stats": null
 }
